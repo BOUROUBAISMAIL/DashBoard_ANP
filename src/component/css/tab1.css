@@ -1,0 +1,11 @@
+th{
+    padding-right: 10px;
+}
+td{
+    padding-right: 18px;
+}
+
+tr:hover{
+    background-color: #c2c6cf;
+
+}

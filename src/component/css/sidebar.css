@@ -1,0 +1,80 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    /* background-color: rgb(46, 46, 156); */
+    position: sticky;
+
+    border-radius: 18px;
+    top: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(201, 228, 252, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(53, 19, 149, 0.75);
+     background-image: 
+    
+      linear-gradient(
+        to bottom,
+        hsl(210, 100%, 45.1%) 0%,
+        hsl(209.75, 100%, 45.1%) 7.5%,
+        hsl(209.04, 100%, 45.1%) 13.5%,
+        hsl(207.97, 100%, 45.1%) 18.4%,
+        hsl(206.64, 100%, 45.1%) 22.3%,
+        hsl(205.14, 100%, 45.1%) 25.7%,
+        hsl(203.54, 100%, 45.1%) 28.9%,
+        hsl(201.91, 100%, 45.1%) 32.1%,
+        hsl(200.3, 100%, 45.1%) 35.8%,
+        hsl(198.76, 100%, 45.1%) 40.2%,
+        hsl(197.34, 100%, 45.1%) 45.6%,
+        hsl(196.06, 100%, 45.1%) 52.5%,
+        hsl(194.95, 100%, 45.1%) 61%,
+        hsl(194.06, 100%, 45.1%) 71.5%,
+        hsl(193.42, 100%, 45.1%) 84.4%,
+        hsl(193.04, 100%, 45.1%) 100%
+      );
+  
+    
+  }
+  
+  .sidebarWrapper {
+    padding: 20px;
+    color: #555;
+  }
+  svg{
+    margin-right: 15px;
+  }
+  .sidebarMenu {
+    margin-bottom: 10px;
+  }
+  
+  .sidebarTitle {
+    font-size: 13px;
+    color:rgba(220, 205, 255, 0.62)
+  }
+  #img{
+    margin-top: 15rem;
+    margin-left: 2rem;
+  }
+  .sidebarList {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .sidebarListItem {
+    padding: 7px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  
+  .sidebarListItem.active,
+  .sidebarListItem:hover {
+    background-color: rgba(240, 240, 255, 0.109);
+     }
+  
+  .sidebarIcon{
+      margin-right: 5px;
+      font-size: 20px !important;
+  }
+  

@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+/* eslint-disable react/jsx-pascal-case */
 import './App.css';
+import Header from './component/Header';
+import Imagetstarted from './component/Imagetstarted';
+import Chart1 from './component/charts/aboutus';
+import IInfo_tab from './component/Info_tab';
+import Sidebar from './component/sidebar';
+import  Footer  from './component/footer';
+import Chart from './component/Chart';
+
+
+import { BrowserRouter as Router, Switch, Route, BrowserRouter, Routes } from "react-router-dom";
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div >
+ 
+      <Header />
+      <Imagetstarted />
+      <IInfo_tab/>
+    
+      <BrowserRouter>
+      <div className='container1'>
+      <div className='col-md-2'>
+      <Sidebar />
+      </div>
+      <div className='col-md-10'>
+      <Routes>
+          <Route  exact path="/" element={<Chart1/>}>
+           
+          </Route>
+          <Route path='/charts' element={<Chart/>}></Route>
+          </Routes>
+          </div>
+          </div>
+          </BrowserRouter>
+          <Footer/>
+        
+   
+      </div>
   );
 }
 
