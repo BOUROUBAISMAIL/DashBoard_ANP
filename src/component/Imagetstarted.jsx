@@ -8,9 +8,9 @@ const Imagetstarted=()=>{
     Aos.init({duration:2000});
    },[]);
     return(
-        <div id="hero" class="container-fluid" data-aos="fade" >
-        <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
-          <h1 id="textt"> l’ANP en chiffres </h1>
+        <div id="hero" class="container-fluid"  >
+        <div class="container text-center position-relative"  data-aos-delay="200">
+          <h1 id="textt" data-aos="fade-in"> l’ANP en chiffres </h1>
          
     
           <a id="text" href="#info" class="btn-get-started scrollto">VOIR LES STATISTIQUES</a>

@@ -49,8 +49,8 @@
     color:rgba(220, 205, 255, 0.62)
   }
   #img{
-    margin-top: 15rem;
-    margin-left: 2rem;
+    margin-top: 13em;
+    margin-left: 5em;
   }
   .sidebarList {
     list-style: none;
@@ -58,13 +58,14 @@
   }
   
   .sidebarListItem {
-    padding: 7px;
+    padding: 10px;
     margin-bottom: 9px;
     cursor: pointer;
     display: flex;
     align-items: center;
     border-radius: 10px;
     text-align: center;
+    font-size: 15px;
   }
 
   

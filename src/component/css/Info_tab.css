@@ -4,14 +4,15 @@
     justify-content: space-between;
   }
   
-  .featuredItem {
+  .card {
     flex: 1;
     margin: 0px 0px 20px;
     padding: 18px;
     border-radius: 10px;
     cursor: pointer;
-    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-right: 10px;
+   
+   
   }
   
   .featuredTitle{

@@ -4,14 +4,14 @@ export const Data1=[
         LIB_PORT: "NADOR",
         
        
-        delai_attente_h: 47.43333333333333,
+        Delai_attend_en_heure: 47.43333333333333,
        
       },
       {
         
         LIB_PORT: "JORF LASFAR",
         
-        delai_attente_h: 4070.9,
+        Delai_attend_en_heure: 4070.9,
        
       },
       
@@ -19,7 +19,7 @@ export const Data1=[
        
         LIB_PORT: "CASABLANCA",
        
-        delai_attente_h: 90.05,
+        Delai_attend_en_heure: 90.05,
         
       },
      
@@ -32,7 +32,7 @@ export const Data1=[
         
         LIB_PORT: "AGADIR",
        
-        delai_attente_h: 120.58333,
+        Delai_attend_en_heure: 120.58333,
        
       }
 ]

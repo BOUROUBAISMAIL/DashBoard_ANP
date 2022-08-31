@@ -10,11 +10,13 @@ font-size:18px;
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     padding: 25px;
     padding-left: 45px;
+    margin-bottom: 40px;
 
 }
 
   .chartTitle {
     margin-bottom: 40px;
+
   }
   .table1{
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
@@ -24,12 +26,11 @@ font-size:18px;
 
   }
   .chart2{
-    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-    padding: 25px;
+   
+    padding: 0px;
     padding-top: 35px;
     margin-top: 30px;
-    margin-right: 20px;
+    margin-right: 0px;
   }
   .contai{
     display: flex;

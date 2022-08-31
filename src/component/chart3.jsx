@@ -18,11 +18,12 @@ export default function Chart3() {
         Aos.init({duration:2500});
        },[]);
   return (
-    <div data-aos="fade-up">
-                <h5 className="chartTitle">Type de navire en fonction de ca longeur et son jauge brute</h5>
+    <div data-aos='fade-up' >
+                <h5 className="chartTitle" style={{"font-size":"16px"
+}}>Type de navire en fonction de ca longeur et son jauge brute</h5>
 
     <BarChart
-      width={500}
+      width={480}
       height={300}
       data={Data3}
       margin={{
@@ -32,12 +33,12 @@ export default function Chart3() {
         bottom: 5
       }}
     >
-      <CartesianGrid />
+      <CartesianGrid stroke="#e0dfdf"/>
       <XAxis dataKey="LIBELLE_TYPE_NAVIRE" />
       <YAxis />
       <Tooltip />
       <Legend />
-      <Bar dataKey="JAUGE_BRUTE" stackId="a" fill="#8884d8" />
+      <Bar dataKey="JAUGE_BRUTE" stackId="a" fill="#0076f9" />
       <Bar dataKey="LONGEUR_NAVIRE" stackId="a" fill="#82ca9d" />
     </BarChart></div>
   );

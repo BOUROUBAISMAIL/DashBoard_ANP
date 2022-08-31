@@ -1,7 +1,9 @@
 
   import { Data2 } from "../data2";
+  import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-  import React from "react";
   import {
     BarChart,
     Bar,
@@ -14,10 +16,13 @@
   } from "recharts";
 
   export default function Chart2() {
-
+    useEffect(()=>{
+      Aos.init({duration:2500});
+     },[]);
     return (
-        <div>
-        <h5 className="chartTitle">Delai date prevue du navire on fonction du date de départ</h5>
+        <div data-aos="fade-up">
+        <h5 className="chartTitle" style={{"font-size":"16px"
+}}>Delai date prevue du navire en fonction du date de départ</h5>
 
       <BarChart
         width={500}
@@ -38,7 +43,7 @@
         <Tooltip  />
                 <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="DELAI_DATE_PREVUE" fill="#8884d8" stackId="stack" />
+        <Bar dataKey="La_Date_Delai_prévue" fill="#0076f9" stackId="stack" />
       </BarChart>
       </div>
     );

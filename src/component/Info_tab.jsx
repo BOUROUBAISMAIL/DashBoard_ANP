@@ -9,10 +9,12 @@ const Info_tab=()=>{
    },[]);
     return (
       <div className="container-fluid " id="info" data-aos="fade-up">
-      <h5 style={{"color":"blue"}}  >PRINCIPAUX TRAFICS STRATÉGIQUES AYANT TRANSITÉ PAR LES PORTS GÉRÉS PAR L'ANP EN 2020</h5>
+      <h5 style={{"color":"#0076f9"}}  >PRINCIPAUX TRAFICS STRATÉGIQUES AYANT TRANSITÉ PAR LES PORTS GÉRÉS PAR L'ANP EN 2020</h5>
      
+    
+
         <div className="featured">
-        <div className="featuredItem">
+        <div className="card">
           <span className="featuredTitle">ENGRAIS</span>
           <div className="featuredMoneyContainer">
             <span className="featuredMoney">12,7</span>
@@ -21,35 +23,35 @@ const Info_tab=()=>{
           <span className="featuredSub">MT*</span>
         </div>
         
-        <div className="featuredItem">
+        <div className="card">
           <span className="featuredTitle">CHARBON</span>
           <div className="featuredMoneyContainer">
             <span className="featuredMoney">10,4</span>
             
           </div>
           <span className="featuredSub">MT*</span>
-        </div><div className="featuredItem">
+        </div><div className="card">
           <span className="featuredTitle">CONTENEURS</span>
           <div className="featuredMoneyContainer">
             <span className="featuredMoney">1,2</span>
             
           </div>
           <span className="featuredSub">Millions EVP**</span>
-        </div><div className="featuredItem">
+        </div><div className="card">
           <span className="featuredTitle">TIR</span>
           <div className="featuredMoneyContainer">
             <span className="featuredMoney">19 087</span>
             
           </div>
           <span className="featuredSub">Unités</span>
-        </div><div className="featuredItem">
+        </div><div className="card">
           <span className="featuredTitle">CÉRÉALES</span>
           <div className="featuredMoneyContainer">
             <span className="featuredMoney">9</span>
             
           </div>
           <span className="featuredSub">MT*</span>
-        </div><div className="featuredItem">
+        </div><div className="card">
           <span className="featuredTitle">PASSAGERS</span>
           <div className="featuredMoneyContainer">
             <span className="featuredMoney">0,3</span>
